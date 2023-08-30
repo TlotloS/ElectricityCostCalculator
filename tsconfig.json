@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "moduleResolution": "node",
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.csv" // copy csv file also to the dist
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

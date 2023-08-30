@@ -1,0 +1,20 @@
+{
+  "name": "rms-electricity-billing-exercise",
+  "version": "1.0.0",
+  "description": "typescript function to calculate total electricity tarrif",
+  "main": "electricity-billing.js",
+  "scripts": {
+    "start": "npx tsc && node dist/index.js"
+  },
+  "author": "tlotlo sebeela",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {
+    "@types/csv-parse": "^1.2.2",
+    "@types/node": "^20.5.7",
+    "csv-parse": "^5.5.0",
+    "typescript": "^5.2.2"
+  }
+}
